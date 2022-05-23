@@ -31,3 +31,27 @@ yarn tsc
 ```
 yarn dev
 ```
+
+## ENDPOINTS
+
+---
+
+### GET todo
+```http request
+localhost:9000
+```
+
+### POST todo
+```http request
+localhost:9000
+```
+```json
+{
+  "todo": "test"
+}
+```
+
+### DELETE todo
+```http request
+localhost:9000/(id)
+```
